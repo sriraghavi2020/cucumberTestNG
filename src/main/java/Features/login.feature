@@ -13,5 +13,5 @@ Scenario Outline: TargetAus login page test
 	
 	Examples: 
 		|username|password|
-		|sriraghavi2020@gmail.com|buvimr94|
-		|kiritik9@gmail.com|kiriti|
+		|sriraghavi2020@gmail.com|sriraghavi|
+		|kiki9@gmail.com|kiti|
