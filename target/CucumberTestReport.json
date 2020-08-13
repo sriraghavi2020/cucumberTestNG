@@ -1,0 +1,212 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "TargetAus login page test",
+        "description": "",
+        "id": "targetaus-feature;targetaus-login-page-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9868000600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Already in loging page",
+            "match": {
+              "location": "login_StepDef.already_in_loging_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 706948100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "confirm login page",
+            "match": {
+              "location": "login_StepDef.confirm_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 737597600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter user name \"sriraghavi2020@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sriraghavi2020@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "login_StepDef.enter_user_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 198529000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter password \"buvimr94\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "buvimr94",
+                  "offset": 16
+                }
+              ],
+              "location": "login_StepDef.enter_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1036418400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "press login button",
+            "match": {
+              "location": "login_StepDef.press_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 151421300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "login_StepDef.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "TargetAus login page test",
+        "description": "",
+        "id": "targetaus-feature;targetaus-login-page-test;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6326333600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Already in loging page",
+            "match": {
+              "location": "login_StepDef.already_in_loging_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2190965600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "confirm login page",
+            "match": {
+              "location": "login_StepDef.confirm_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1218380200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter user name \"kiritik9@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kiritik9@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "login_StepDef.enter_user_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 173193500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter password \"kiriti\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kiriti",
+                  "offset": 16
+                }
+              ],
+              "location": "login_StepDef.enter_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 765855800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "press login button",
+            "match": {
+              "location": "login_StepDef.press_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 129042000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "login_StepDef.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TargetAus feature",
+    "description": "",
+    "id": "targetaus-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

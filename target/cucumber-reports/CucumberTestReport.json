@@ -1,0 +1,188 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "TargetAus login page test",
+        "description": "",
+        "id": "targetaus-feature;targetaus-login-page-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9523724700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Already in loging page",
+            "match": {
+              "location": "login_StepDef.already_in_loging_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2256918500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "confirm login page",
+            "match": {
+              "location": "login_StepDef.confirm_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2078091800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter user name \"sriraghavi2020@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sriraghavi2020@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "login_StepDef.enter_user_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 247641400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter password \"buvimr94\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "buvimr94",
+                  "offset": 16
+                }
+              ],
+              "location": "login_StepDef.enter_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1165234900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "press login button",
+            "match": {
+              "location": "login_StepDef.press_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "TargetAus login page test",
+        "description": "",
+        "id": "targetaus-feature;targetaus-login-page-test;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5892023500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Already in loging page",
+            "match": {
+              "location": "login_StepDef.already_in_loging_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 691776700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "confirm login page",
+            "match": {
+              "location": "login_StepDef.confirm_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 467811700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter user name \"kiritik9@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kiritik9@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "login_StepDef.enter_user_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 483836300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter password \"kiriti\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kiriti",
+                  "offset": 16
+                }
+              ],
+              "location": "login_StepDef.enter_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 628530700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "press login button",
+            "match": {
+              "location": "login_StepDef.press_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TargetAus feature",
+    "description": "",
+    "id": "targetaus-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Kiriti/Test_Automation/eclipse-copy/Cucumber_TestNG/src/main/java/features/login.feature"
+  }
+]
